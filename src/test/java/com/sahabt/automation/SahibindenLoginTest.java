@@ -15,7 +15,7 @@ public class SahibindenLoginTest {
     public void true_Email_True_Password_Test(){
 
         baseTest.setup();
-        baseTest.login("oktyuyar@gmail.com","ofg.,123");
+        baseTest.login("oktyuyar@gmail.com","o.123");
 
         baseTest.click(By.cssSelector(".user-info-campaign-dialog [ng-hide]"));
 
